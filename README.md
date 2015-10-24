@@ -7,7 +7,8 @@ A lot of this is just at the conceptual stage right now, some of the files menti
 ## Components
 
 - barcode_ui.py - the user interface
-- database_comms.py - comms to a given data source
+- db_comms.py - comms to a given data source
 - reader_comms.py - comms to the barcode reader
 - valiadation.py - any required data validation
+- test.py - for testing things
 
