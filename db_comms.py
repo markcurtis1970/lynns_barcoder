@@ -34,6 +34,7 @@ def exec_write(statement):
     try:
         cur = con.cursor()
         cur.execute(statement)
+        con.commit()
     except mydb.Error, e:
         print "Error %s:" % e.args[0]
 
