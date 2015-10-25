@@ -2,12 +2,18 @@
 
 from Tkinter import *
 from gen_qr import make_code
+import ConfigParser
+
+config = ConfigParser.RawConfigParser()
+config.read('bc.properties')
+uiFields = config.items('ui fields')
 
 # Setup variables
 root = Tk()
 attributes = sys.argv
 entries = []
 labels = []
+i = 0
 
 # *** Functions ***
 
@@ -38,17 +44,16 @@ def makebc():
 # enumerate the list of attributes (number, value)
 # the end value of row determines where everything
 # is at the bottom
-for i,a in enumerate(attributes):
-    # exclude the first item which is the file name
-    if i > 0 :
-        myLabel = Label(root, text = a)
-        myLabel.grid(column = 0, row = i)
-        labels.append(myLabel)
-        myEntry = Entry(root)
-        myEntry.grid(column = 1, row = i)
-        entries.append(myEntry)
-        # use i-1 as we had to negate the first entry
-        entries[i-1].insert(INSERT,"text to insert")
+for myField in uiFields:
+    print myField
+    i = i + 1
+    myLabel = Label(root, text = myField[1])
+    myLabel.grid(column = 0, row = i)
+    labels.append(myLabel)
+    myEntry = Entry(root)
+    myEntry.grid(column = 1, row = i)
+    entries.append(myEntry)
+    entries[i-1].insert(INSERT,"text to insert")
 
 # the end value of row determines where everything
 # is at the bottom

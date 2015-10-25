@@ -3,6 +3,11 @@
 import sys
 import os
 import sqlite3 as mydb
+import ConfigParser
+
+config = ConfigParser.RawConfigParser()
+config.read('bc.properties')
+dbname = config.get('db','db.name')
 
 con = None
 
@@ -10,7 +15,7 @@ con = None
 def connect():
     global con
     try:    
-        con = mydb.connect('barcode.db')
+        con = mydb.connect(dbname)
 
     except mydb.Error, e:
         print "Error %s:" % e.args[0]
