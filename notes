@@ -1,0 +1,50 @@
+Some useful URLs for working on the barcoder project
+====================================================
+
+Emacs cheat sheet: http://www.rgrjr.com/emacs/emacs_cheat.html
+
+Barcode readers in Ubuntu: https://help.ubuntu.com/community/BarcodeReaders
+
+Andriod stuff:
+==============
+
+http://developer.android.com/sdk/installing/index.html?pkg=studio
+
+http://androidthings.blogspot.co.uk/
+
+http://code.tutsplus.com/tutorials/create-a-hangman-game-project-setup--mobile-21797
+
+http://code.tutsplus.com/tutorials/android-sdk-create-a-barcode-reader--mobile-17162
+
+Python stuff
+=============
+
+Tkinter reference - http://www.tutorialspoint.com/python/python_gui_programming.htm
+
+Tkinter docs - https://wiki.python.org/moin/Intro%20to%20programming%20with%20Python%20and%20Tkinter
+
+Useful post about accessing Tkinter widgets in a list: http://stackoverflow.com/questions/6776322/problems-accessing-tkinter-widgets-in-a-list
+
+system specific params and functions - https://docs.python.org/2/library/sys.html
+
+enumerate function - https://docs.python.org/2/library/functions.html#enumerate
+
+flow control - https://docs.python.org/2/tutorial/controlflow.html
+
+functions - https://docs.python.org/2/tutorial/controlflow.html
+
+sqlite to python tutorial -  http://zetcode.com/db/sqlitepythontutorial/
+
+global variables - http://stackoverflow.com/questions/423379/using-global-variables-in-a-function-other-than-the-one-that-created-them
+
+config parser - https://docs.python.org/2/library/configparser.html#module-ConfigParser
+
+file i/o - https://docs.python.org/2/tutorial/inputoutput.html
+
+QR codes
+=========
+
+Generating qr codes - http://www.linux-magazine.com/Online/Features/Generating-QR-Codes-in-Linux
+
+http://www.linuxintheshell.org/2012/03/01/entry-001-qrencode/
+
