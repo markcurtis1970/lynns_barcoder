@@ -1,7 +1,7 @@
 # For the UI part of the barcode reader
 
 from Tkinter import *
-from gen_qr import make_code
+from gen_barcode import make_code
 import ConfigParser
 
 config = ConfigParser.RawConfigParser()
