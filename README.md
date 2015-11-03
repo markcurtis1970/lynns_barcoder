@@ -7,7 +7,9 @@ A lot of this is just at the conceptual stage right now, some of the files menti
 ## Setup
 
 - python (usually installed by default)
-- qrencode (install with any package installer)
+- python-tk
+- qrencode 
+- barcode 
 
 ## Components
 
