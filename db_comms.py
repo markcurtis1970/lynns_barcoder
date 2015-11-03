@@ -24,7 +24,7 @@ def connect():
 
 # execute a read from the db
 def exec_read(statement):
-    
+    rows="" 
     try: 
         cur = con.cursor()
         cur.execute(statement)

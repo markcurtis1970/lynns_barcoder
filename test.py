@@ -7,13 +7,9 @@ from export import export
 import ConfigParser
 
 connect()
-exec_write("insert into items values ('val1', 'val1')")
-exec_write("insert into items values ('val2', 'val2')")
-exec_write("insert into items values ('val3', 'val3')")
-exec_write("insert into items values ('val4', 'val4')")
-exec_write("insert into items values ('val5', 'val5')")
-exec_write("insert into items values ('val6', 'val6')")
-exec_write("insert into items values ('val7', 'val7')")
+exec_write("insert into items values ('PC001', 'Descr001','Make1','Model1','Serial1','Date1','Store1')")
+exec_write("insert into items values ('PC002', 'Descr002','Make2','Model2','Serial2','Date2','Store2')")
+exec_write("insert into items values ('PC001', 'Descr003','Make3','Model3','Serial3','Date3','Store3')")
 results = exec_read("select * from items")
 disconnect()
 
