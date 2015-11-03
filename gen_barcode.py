@@ -9,4 +9,4 @@ def make_code(code):
     myfile = code + ".ps"
     # using the following command format
     # barcode -e 128 -b "Hello World!" -o barcode.ps
-    os.system("barcode -e 128"  + " -b " + mycode + " -o " + myfile)
+    os.system("barcode -e 128"  + " -b '" + mycode + "' -o " + "'" + myfile + "'")
